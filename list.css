@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #10403B;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+}
+
+.main {
+  height: 400px;
+  width: 350px;
+  backdrop-filter: blur(17px) saturate(180%);
+  -webkit-backdrop-filter: blur(17px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 20px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome {
+  position: relative;
+  margin-top: 45px;
+}
+
+.welcome h1 {
+  color: #8AA6A3;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.logintxt {
+  margin-top: 25px;
+}
+
+.logintxt h2 {
+  color: #8AA6A3;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.usernameinput {
+  background: transparent;
+  border: 3px solid #10403B;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+
+.usernameinput:focus-within {
+  border: 3px solid #8AA6A3;
+}
+
+.usernameinput input {
+  position: relative;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #8AA6A3;
+}
+
+.usernameinput i {
+  position: relative;
+  top: 2px;
+  color: #8AA6A3;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.passwordinput {
+  background: transparent;
+  border: 3px solid #10403B;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+
+.passwordinput:focus-within {
+  border: 3px solid #8AA6A3;
+}
+
+.passwordinput input {
+  position: relative;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #8AA6A3;
+}
+
+.passwordinput i {
+  position: relative;
+  top: 3.5px;
+  color: #8AA6A3;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.submitbtn {
+  margin-top: 25px;
+}
+
+.submitbtn input {
+  background: transparent;
+  color: #BFBFBF;
+  font-weight: 700;
+  width: 100px;
+  height: 45px;
+  border: 3px solid #8AA6A3;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  transition: 0.25s;
+}
+
+.submitbtn input:hover {
+  color: #10403B;
+  background: #8AA6A3;
+}
+
+/*# sourceMappingURL=list.css.map */
